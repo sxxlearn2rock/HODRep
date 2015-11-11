@@ -1,0 +1,54 @@
+﻿生成启动时间为 11/11/2015 5:09:55 PM。
+     1>项目“D:\SXX\Projects\Tests\HOD\HOD\HOD.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\HOD.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.2\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.2\include\QtCore /IC:\Qt\4.8.2\include\QtGui /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Players\ContinuousFramesPlayer.cpp Players\VideoFilePlayer.cpp mainwindow.cpp
+         ContinuousFramesPlayer.cpp
+         VideoFilePlayer.cpp
+         mainwindow.cpp
+         正在生成代码...
+         所有输出均为最新。
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SXX\Projects\Tests\HOD\Win32\Release\\HOD.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.2\lib qtmain.lib QtCore4.lib QtGui4.lib opencv_calib3d2410.lib opencv_contrib2410.lib opencv_core2410.lib opencv_features2d2410.lib opencv_flann2410.lib opencv_gpu2410.lib opencv_highgui2410.lib opencv_imgproc2410.lib opencv_legacy2410.lib opencv_ml2410.lib opencv_objdetect2410.lib opencv_ts2410.lib opencv_video2410.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\HOD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\SXX\Projects\Tests\HOD\Win32\Release\HOD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SXX\Projects\Tests\HOD\Win32\Release\HOD.lib" /MACHINE:X86 Release\DenoiseProcessor.obj
+         Release\qrc_mainwindow.obj
+         Release\moc_mainwindow.obj
+         Release\main.obj
+         Release\mainwindow.obj
+         Release\ContinuousFramesPlayer.obj
+         Release\VideoFilePlayer.obj
+         Release\BaseWeightBGP.obj
+         Release\DefaultDenoiseStrategy.obj
+         Release\DoublehistEqual.obj
+         Release\FD.obj
+         Release\LateralInhibition.obj
+         Release\LMPM.obj
+         Release\LocalMeanContrast.obj
+         Release\Localshannon.obj
+         Release\Localstd.obj
+         Release\MaxMedianFilter.obj
+         Release\Pmdiff1.obj
+         Release\Pmdiff2.obj
+         Release\Pmdiffmy.obj
+         Release\TDLMS.obj
+         Release\AdaSegmentStrategy.obj
+         Release\DefaultSegmentStrategy.obj
+         Release\Ksw2dSegment.obj
+         Release\KswSegment.obj
+         Release\OtsuSegment.obj
+         Release\SegmentStrategy.obj
+         Release\SegmentProcessor.obj
+         Release\UnexpectedActionHandler.obj
+         HOD.vcxproj -> D:\SXX\Projects\Tests\HOD\Win32\Release\HOD.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SXX\Projects\Tests\HOD\Win32\Release\\HOD.exe;#1" /manifest Release\HOD.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\HOD.unsuccessfulbuild”。
+         正在对“Release\HOD.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\SXX\Projects\Tests\HOD\HOD\HOD.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.90

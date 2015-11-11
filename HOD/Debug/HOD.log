@@ -1,0 +1,89 @@
+﻿生成启动时间为 11/11/2015 1:06:34 PM。
+     1>项目“D:\SXX\Projects\Tests\HOD\HOD\HOD.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\HOD.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“Debug\HOD.unsuccessfulbuild”执行 Touch 任务。
+       CustomBuild:
+         Moc'ing mainwindow.h...
+         Uic'ing mainwindow.ui...
+         Rcc'ing mainwindow.qrc...
+     1>RCC : warning : No resources in 'D:\SXX\Projects\Tests\HOD\HOD\mainwindow.qrc'.
+         
+       ClCompile:
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.2\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.2\include\QtCore /IC:\Qt\4.8.2\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DenoiseProcessor.cpp GeneratedFiles\Debug\moc_mainwindow.cpp main.cpp mainwindow.cpp Players\ContinuousFramesPlayer.cpp Players\VideoFilePlayer.cpp Processors\DenoiseStrategies\BaseWeightBGP.cpp Processors\DenoiseStrategies\DefaultDenoiseStrategy.cpp Processors\DenoiseStrategies\DoublehistEqual.cpp Processors\DenoiseStrategies\FD.cpp Processors\DenoiseStrategies\LateralInhibition.cpp Processors\DenoiseStrategies\LMPM.cpp Processors\DenoiseStrategies\LocalMeanContrast.cpp Processors\DenoiseStrategies\Localshannon.cpp Processors\DenoiseStrategies\Localstd.cpp Processors\DenoiseStrategies\MaxMedianFilter.cpp Processors\DenoiseStrategies\Pmdiff1.cpp Processors\DenoiseStrategies\Pmdiff2.cpp Processors\DenoiseStrategies\Pmdiffmy.cpp Processors\DenoiseStrategies\TDLMS.cpp Processors\SegmentStrategies\AdaSegmentStrategy.cpp Processors\SegmentStrategies\DefaultSegmentStrategy.cpp Processors\SegmentStrategies\Ksw2dSegment.cpp Processors\SegmentStrategies\KswSegment.cpp Processors\SegmentStrategies\OtsuSegment.cpp Processors\SegmentStrategy.cpp SegmentProcessor.cpp UnexpectedActionHandler.cpp
+         DenoiseProcessor.cpp
+         moc_mainwindow.cpp
+         main.cpp
+         mainwindow.cpp
+         ContinuousFramesPlayer.cpp
+         VideoFilePlayer.cpp
+         BaseWeightBGP.cpp
+         DefaultDenoiseStrategy.cpp
+         DoublehistEqual.cpp
+         FD.cpp
+         LateralInhibition.cpp
+         LMPM.cpp
+         LocalMeanContrast.cpp
+         Localshannon.cpp
+         Localstd.cpp
+         MaxMedianFilter.cpp
+         Pmdiff1.cpp
+         Pmdiff2.cpp
+         Pmdiffmy.cpp
+         TDLMS.cpp
+         正在生成代码...
+         正在编译...
+         AdaSegmentStrategy.cpp
+         DefaultSegmentStrategy.cpp
+         Ksw2dSegment.cpp
+         KswSegment.cpp
+         OtsuSegment.cpp
+         SegmentStrategy.cpp
+         SegmentProcessor.cpp
+         UnexpectedActionHandler.cpp
+     1>UnexpectedActionHandler.cpp(19): warning C4482: 使用了非标准扩展: 限定名中使用了枚举“QMessageBox::Icon”
+         正在生成代码...
+         D:\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.2\include /I.\GeneratedFiles\Debug /IC:\Qt\4.8.2\include\QtCore /IC:\Qt\4.8.2\include\QtGui /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_mainwindow.cpp
+         qrc_mainwindow.cpp
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\SXX\Projects\Tests\HOD\Win32\Debug\\HOD.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.2\lib qtmaind.lib QtCored4.lib QtGuid4.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ocl2410d.lib opencv_photo2410d.lib opencv_stitching2410d.lib opencv_superres2410d.lib opencv_ts2410d.lib opencv_video2410d.lib opencv_calib3d2410d.lib opencv_contrib2410d.lib opencv_core2410d.lib opencv_features2d2410d.lib opencv_flann2410d.lib opencv_gpu2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_legacy2410d.lib opencv_ml2410d.lib opencv_objdetect2410d.lib opencv_ts2410d.lib opencv_video2410d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HOD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\SXX\Projects\Tests\HOD\Win32\Debug\HOD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\SXX\Projects\Tests\HOD\Win32\Debug\HOD.lib" /MACHINE:X86 Debug\DenoiseProcessor.obj
+         Debug\moc_mainwindow.obj
+         Debug\qrc_mainwindow.obj
+         Debug\main.obj
+         Debug\mainwindow.obj
+         Debug\ContinuousFramesPlayer.obj
+         Debug\VideoFilePlayer.obj
+         Debug\BaseWeightBGP.obj
+         Debug\DefaultDenoiseStrategy.obj
+         Debug\DoublehistEqual.obj
+         Debug\FD.obj
+         Debug\LateralInhibition.obj
+         Debug\LMPM.obj
+         Debug\LocalMeanContrast.obj
+         Debug\Localshannon.obj
+         Debug\Localstd.obj
+         Debug\MaxMedianFilter.obj
+         Debug\Pmdiff1.obj
+         Debug\Pmdiff2.obj
+         Debug\Pmdiffmy.obj
+         Debug\TDLMS.obj
+         Debug\AdaSegmentStrategy.obj
+         Debug\DefaultSegmentStrategy.obj
+         Debug\Ksw2dSegment.obj
+         Debug\KswSegment.obj
+         Debug\OtsuSegment.obj
+         Debug\SegmentStrategy.obj
+         Debug\SegmentProcessor.obj
+         Debug\UnexpectedActionHandler.obj
+         HOD.vcxproj -> D:\SXX\Projects\Tests\HOD\Win32\Debug\HOD.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\SXX\Projects\Tests\HOD\Win32\Debug\\HOD.exe;#1" /manifest Debug\HOD.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\HOD.unsuccessfulbuild”。
+         正在对“Debug\HOD.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\SXX\Projects\Tests\HOD\HOD\HOD.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:20.73

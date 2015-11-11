@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{e5d313b3-ca00-43ef-abe5-a3651b8a78bd}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{93c4d814-20e3-4942-bdc2-9ccc24e41d63}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Processors">
+      <UniqueIdentifier>{8923d308-3fc7-4717-a188-f5d1bd990e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processors">
+      <UniqueIdentifier>{73270b97-3e1a-45a8-b10c-2369d072c828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Players">
+      <UniqueIdentifier>{3cd24d7f-7222-4063-85fb-08af4262bd40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Players">
+      <UniqueIdentifier>{3e625d25-896b-4b29-a807-ac2b54b7179b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processors\DenoiseStrategies">
+      <UniqueIdentifier>{dc6f71e9-d42a-4b4e-8fcb-36687819ff70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processors\DenoiseStrategies">
+      <UniqueIdentifier>{74873bef-1924-4d52-b5f6-f2732a2f01da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processors\SegmentStrategies">
+      <UniqueIdentifier>{42853853-443b-458e-a8c9-d439a8797745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Processors\SegmentStrategies">
+      <UniqueIdentifier>{88618bb1-f942-4367-9245-d98a2424609c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mainwindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainwindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainwindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_mainwindow.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DenoiseProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UnexpectedActionHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\SegmentStrategy.cpp">
+      <Filter>Source Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\BaseWeightBGP.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\DefaultDenoiseStrategy.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\DoublehistEqual.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\FD.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\LateralInhibition.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\LMPM.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\LocalMeanContrast.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\Localshannon.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\Localstd.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\TDLMS.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\Pmdiffmy.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\Pmdiff2.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\Pmdiff1.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\DenoiseStrategies\MaxMedianFilter.cpp">
+      <Filter>Source Files\Processors\DenoiseStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\SegmentStrategies\AdaSegmentStrategy.cpp">
+      <Filter>Source Files\Processors\SegmentStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\SegmentStrategies\DefaultSegmentStrategy.cpp">
+      <Filter>Source Files\Processors\SegmentStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\SegmentStrategies\Ksw2dSegment.cpp">
+      <Filter>Source Files\Processors\SegmentStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\SegmentStrategies\KswSegment.cpp">
+      <Filter>Source Files\Processors\SegmentStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Processors\SegmentStrategies\OtsuSegment.cpp">
+      <Filter>Source Files\Processors\SegmentStrategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\ContinuousFramesPlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+    <ClCompile Include="Players\VideoFilePlayer.cpp">
+      <Filter>Source Files\Players</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="mainwindow.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainwindow.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DenoiseProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UnexpectedActionHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategy.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\SegmentStrategy.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\strategies.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\BaseWeightBGP.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\DefaultDenoiseStrategy.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\DoublehistEqual.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\FD.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\LateralInhibition.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\LMPM.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\LocalMeanContrast.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\Localshannon.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\Localstd.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\MaxMedianFilter.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\Pmdiff1.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\Pmdiff2.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\Pmdiffmy.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\DenoiseStrategies\TDLMS.h">
+      <Filter>Header Files\Processors\DenoiseStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\SegmentStrategies\AdaSegmentStrategy.h">
+      <Filter>Header Files\Processors\SegmentStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\SegmentStrategies\DefaultSegmentStrategy.h">
+      <Filter>Header Files\Processors\SegmentStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\SegmentStrategies\Ksw2dSegment.h">
+      <Filter>Header Files\Processors\SegmentStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\SegmentStrategies\KswSegment.h">
+      <Filter>Header Files\Processors\SegmentStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Processors\SegmentStrategies\OtsuSegment.h">
+      <Filter>Header Files\Processors\SegmentStrategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\ContinuousFramesPlayer.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\VideoFilePlayer.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+    <ClInclude Include="Players\VideoPlayer.h">
+      <Filter>Header Files\Players</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
