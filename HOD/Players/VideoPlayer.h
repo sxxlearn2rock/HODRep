@@ -18,7 +18,7 @@ public:
 	virtual bool readVideo(const QString& filepath) = 0;
 	virtual bool getNextFrame(Mat& ) = 0;
 	virtual void releaseVideo() = 0;
-	virtual double getVideoRate() { return 5; }
+	virtual double getVideoRate() { return 3; }
 
 	long getCurrentFramNo() { return mCurrentFrameNo; }
 protected:

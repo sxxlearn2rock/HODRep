@@ -279,8 +279,7 @@ void MainWindow::setSegmentStrategy(int index)
 	case 4:
 		mSegmentProcessor->setSegmentStrategy(AdaSegmentStrategy::getInstance());		break;
 	default:
-		mSegmentProcessor->setSegmentStrategy(DefaultSegmentStrategy::getInstance());
-		break;
+		mSegmentProcessor->setSegmentStrategy(DefaultSegmentStrategy::getInstance());		break;
 	}
 }
 
